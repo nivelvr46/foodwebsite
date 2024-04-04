@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+
+html{ 
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+ 
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px ;
+    z-index: index 1000;;
+}
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+section nav ul a {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    margin-top: 10px;
+    margin-left: 36px;
+    color: #000;
+   font-weight: 700;
+   font-size: 17px;
+    
+}
+section nav ul a:hover{
+    color: #fac031;
+}
+
+section .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+section .main .main-text h1{
+    font-size: 60px;
+    position: relative;
+    top:-90px;
+    left: 20px;
+}
+
+section .main .main-text h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: monospace,;
+    line-height: 22px;
+    font-size: 70px;
+}
+section .main .main-image img{
+     width: 700px;
+     position: relative;
+     left: 70px;
+}
+section p {
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    left:170px;
+    bottom: 120px;
+    line-height: 22px;
+}
+section .main-btn{
+    background: #fac031;
+    position: relative;
+    left: 170px; 
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+section .main-btn a {
+    color: white;
+    margin-right: 5px;
+}
+
+
+
+.about{
+    width: 100%;
+    height:100vh;
+    padding: 70px 0;
+}
+
+.about .about-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about-main .image img{
+    width: 800px;
+    position: relative;
+    top: 100px;
+}
+
+.about .about-main .about-text h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family:monospace;
+}
+
+.about .about-main .about-text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+ 
+.about .about-main .about-text h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+
+.about .about-main .about-text p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 25px;
+}
+
+.about .about-btn{
+    background: #fac031;
+    padding: 12px 25px;
+    color: white;
+    position: relative;
+    left: 58%;
+    bottom: 30px;
+}
+ .menu .card{
+    
+    box-shadow: 0 0 10px;
+    transition: 0.3s;
+ }
+
+
+
+.menu .menu-text h1 {
+    
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.menu .menu-text span{
+    color: #fac031;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 4rem;
+} 
+
+
+.menu .card-img-top:hover{
+     transform: scale(1.1);
+}
+
+.menu .menu-icon{
+    color: #fac031;
+   
+}
+ .menu .card-title{
+    color: #fac031;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+
+
+
+.gallery h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: monospace;
+}
+
+.carousel-inner{
+
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.order{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+    background-image: url(image/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order .order-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.order .order-main .order-image img{
+    width: 600px;
+}
+.order .order-main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0 10px
+}
+.order .order-main form .input p{
+    line-height: 25px;
+}
+.order .order-main form .input{
+    margin: 5px;
+}
+
+.order .order-main form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border:2px solid #cccccc;
+    background: #cccccc;
+    outline: none;
+    border-radius: 3px;
+}
+.order .order-main form .input input:focus{
+    border: 2px solid #fac031;
+}
+.order .order-main form .order-btn{
+    width: 200px;
+    padding: 10px 0;
+    background: #fac031;
+    color: #cccccc;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
